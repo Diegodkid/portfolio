@@ -20,6 +20,7 @@ export const Container = styled.section`
       margin-top: 5rem;
       gap: 2rem;
     }
+  }
 `;
 
 export const ItemContainer = styled.div`
@@ -33,6 +34,8 @@ export const ItemContainer = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     border-radius: 1rem;
+
+    max-width: 19rem;
 
     transition: 0.5s;
 
@@ -94,6 +97,7 @@ export const ItemContainer = styled.div`
     > div {
       height: auto;
       padding: 2rem;
+      max-width: 100%;
 
       h1 {
         font-size: 2rem;
