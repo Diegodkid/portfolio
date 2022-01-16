@@ -62,6 +62,7 @@ export const getStaticProps: GetStaticProps = async () => {
     [Prismic.Predicates.at('document.type', 'projeto')],
     { orderings: '[document.first_publication_date desc]' }
   );
+
   const projetos = projectResponse.results.map(projeto => ({
     slug: projeto.uid,
     title: projeto.data.title,
