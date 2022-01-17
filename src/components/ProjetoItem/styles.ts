@@ -10,7 +10,7 @@ export const Container = styled.div<ContainerProps>`
     width: 100%;
     background: url(${props => props.imgUrl}) no-repeat center;
     background-size: cover;
-    height: 17rem;
+    height: 16rem;
     padding: 1.5rem;
     display: flex;
     align-items: flex-end;
@@ -20,12 +20,16 @@ export const Container = styled.div<ContainerProps>`
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: 3px -3px 3px #31ffff;
+
     &:hover {
-      border-color: ${({ theme }) => theme.primary};
+      box-shadow: -3px 3px 3px #7125e8;
+
       > div.overlay {
         opacity: 0.5;
       }
     }
+
     > section {
       z-index: 2;
       h1 {
@@ -38,6 +42,7 @@ export const Container = styled.div<ContainerProps>`
         font-size: 1rem;
       }
     }
+
     > div.overlay {
       position: absolute;
       left: 0;

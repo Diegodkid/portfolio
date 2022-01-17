@@ -9,7 +9,7 @@ function Conhecimentos() {
   return (
     <Container>
       <SectionTitle title="Conhecimentos" />
-      <section data-aos="fade-left">
+      <section>
         <ConhecimentoItem title="HTML" icon={<AiFillHtml5 />} />
         <ConhecimentoItem title="CSS" icon={<FaCss3Alt />} />
         <ConhecimentoItem title="Javascript" icon={<IoLogoJavascript />} />

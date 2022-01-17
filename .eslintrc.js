@@ -29,9 +29,7 @@ module.exports = {
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
     'import/prefer-default-export': 'off',
-    'jsx-a11y/anchor-is-valid': 'off',
-    'react/self-closing-comp': 'off',
-    'jsx-a11y/media-has-caption': 'off',
     'react/require-default-props': 'off',
+    'jsx-a11y/anchor-is-valid': 'off'
   }
 };

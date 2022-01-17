@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/return-await */
 import axios from 'axios';
 
 export const sendContactMail = async (

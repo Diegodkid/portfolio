@@ -55,7 +55,9 @@ export default function Home({ projetos }: HomeProps) {
               content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
             />
           </Head>
+
           <Header />
+
           <main className="container">
             <HomeHero />
             <Experiencias />

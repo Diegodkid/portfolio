@@ -8,16 +8,14 @@ function FormContato() {
       <SectionTitle
         title={
           <>
-            Precisa dos
+            Estou disponivel para novos projetos
             <br />
-            meus serviços?
           </>
         }
         description={
           <>
-            Preencha o formulário abaixo que
+            Entre em contato comigo e marcamos uma conversa
             <br />
-            irei retornar em breve
           </>
         }
       />

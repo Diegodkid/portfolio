@@ -21,7 +21,7 @@ interface ProjetoProps {
 
 export default function Projetos({ projetos }: ProjetoProps) {
   return (
-    <ProjetosContainer data-aos="flip-left" data-aos-easing="ease-out-cubic">
+    <ProjetosContainer>
       <Head>
         <title>Projetos | Meu portfólio</title>
         <meta

@@ -12,6 +12,7 @@ export const Container = styled.header`
   justify-content: center;
   height: 4rem;
   border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
+
   ul {
     display: flex;
     gap: 2rem;
@@ -25,6 +26,7 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
     color: ${props =>
       props.isActive ? props.theme.primary : props.theme.textHighlight};
     transition: 0.5s;
+
     &:hover {
       color: ${props =>
         props.isActive

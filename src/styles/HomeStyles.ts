@@ -5,6 +5,7 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
+
   > main {
     display: flex;
     flex-direction: column;
@@ -27,12 +28,12 @@ export const Cover = styled.div`
   }
   @media (max-width: 1024px) {
     video {
-      height: 307rem;
+      height: 308rem;
     }
   }
   @media (max-width: 1000px) {
     video {
-      height: 273rem;
+      height: 274rem;
     }
   }
   @media (max-width: 768px) {
@@ -42,12 +43,17 @@ export const Cover = styled.div`
   }
   @media (max-width: 425px) {
     video {
-      height: 312.5rem;
+      height: 309rem;
+    }
+  }
+  @media (max-width: 375px) {
+    video {
+      height: 314rem;
     }
   }
   @media (max-width: 320px) {
     video {
-      height: 315rem;
+      height: 320rem;
     }
   }
 `;

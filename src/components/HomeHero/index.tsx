@@ -4,8 +4,8 @@ import picture from '../../assets/b2.png';
 
 function HomeHero() {
   return (
-    <Container data-aos="fade-up-left">
-      <img src={picture} alt="Minha foto" data-aos="fade-up-right" />
+    <Container data-aos="fade-up">
+      <img src={picture} alt="Minha foto" />
       <div>
         <TextContainer>
           <h1>Olá</h1>
@@ -13,24 +13,24 @@ function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Infos</span> {'\u007b'}
+            <span className="purple">Infos</span> {'\u007B'}
             <div>
-              Nome: <span className="blue"> Diego,</span>
+              Nome: <span className="blue">Diego,</span>
             </div>
             <div>
               Sobrenome: <span className="blue">Santos</span>
             </div>
-            {'\u007d'}
+            {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Cargo</span> {'\u007b'}
+            <span className="purple">Cargo</span> {'\u007B'}
             <div>
-              Função: <span className="blue"> Dev Front-end,</span>
+              Função: <span className="blue">Dev Front-end,</span>
             </div>
             <div>
-              Empresa: <span className="blue">Cidade Alta</span>
+              Empresa: <span className="blue">Campo Grande</span>
             </div>
-            {'\u007d'}
+            {'\u007D'}
           </CodeItem>
         </InfosContainer>
       </div>

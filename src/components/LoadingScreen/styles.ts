@@ -12,8 +12,10 @@ export const Container = styled.section`
 export const SpinnerContainer = styled.div`
   width: 5rem;
   height: 5rem;
+
   position: relative;
   margin: 100px auto;
+
   .double-bounce1,
   .double-bounce2 {
     width: 100%;
@@ -24,13 +26,16 @@ export const SpinnerContainer = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+
     -webkit-animation: sk-bounce 2s infinite ease-in-out;
     animation: sk-bounce 2s infinite ease-in-out;
   }
+
   .double-bounce2 {
     -webkit-animation-delay: -1s;
     animation-delay: -1s;
   }
+
   @-webkit-keyframes sk-bounce {
     0%,
     100% {
@@ -40,6 +45,7 @@ export const SpinnerContainer = styled.div`
       -webkit-transform: scale(1);
     }
   }
+
   @keyframes sk-bounce {
     0%,
     100% {

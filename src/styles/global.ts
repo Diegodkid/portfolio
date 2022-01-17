@@ -7,6 +7,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+
     ::-webkit-scrollbar {
       width: 8px;
       height: 5px;
@@ -19,23 +20,29 @@ export default createGlobalStyle`
       background: ${({ theme }) => lighten(0.4, theme.primary)};
     }
   }
+
   body {
     background: ${props => props.theme.background};
     font: 400 1rem 'Montserrat', sans-serif;
   }
+
   img {
     width: 100%;
     max-width: 100%;
   }
+
   ul {
     list-style: none;
   }
+
   button {
     cursor: pointer;
   }
+
   a {
     text-decoration: none;
   }
+
   .container {
     width: 100%;
     margin: 0 auto;
@@ -51,4 +58,5 @@ export default createGlobalStyle`
       padding: 0 2rem;
     }
   }
+
 `;

@@ -11,7 +11,6 @@
     "@prismicio/client": "^5.1.0",
     "aos": "^2.3.4",
     "axios": "^0.21.3",
-    "babel": "^6.23.0",
     "googleapis": "^85.0.0",
     "next": "10.2.0",
     "next-images": "^1.7.0",
@@ -22,9 +21,7 @@
     "react-dom": "17.0.2",
     "react-hot-toast": "^2.1.1",
     "react-icons": "^4.2.0",
-    "styled-components": "^5.3.0",
-    "upgrade": "^1.1.0",
-    "webpack": "^5.66.0"
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "@types/node": "^15.3.0",
