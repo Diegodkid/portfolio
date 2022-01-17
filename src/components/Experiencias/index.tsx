@@ -5,25 +5,25 @@ import ExperienciaItem from './ExperienciaItem';
 function Experiencias() {
   return (
     <Container>
-      <SectionTitle title="05 Anos" description="de experiência" />
+      <SectionTitle title="Minhas" description="experiências" />
       <section data-aos="fade-up-left">
         <ExperienciaItem
-          year="2021"
+          year="2022"
           title="Dev Front-end"
           description="Lorem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit"
         />
         <ExperienciaItem
-          year="2021"
+          year="2022"
           title="Dev Front-end"
           description="Lorem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit"
         />
         <ExperienciaItem
-          year="2021"
+          year="2022"
           title="Dev Front-end"
           description="Lorem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit"
         />
         <ExperienciaItem
-          year="2021"
+          year="2022"
           title="Dev Front-end"
           description="Lorem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit, orem ipsum dolor sit"
         />
