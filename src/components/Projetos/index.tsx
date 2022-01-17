@@ -12,13 +12,13 @@ interface IProjeto {
   thumbnail: string;
 }
 
-interface ProjetoProps {
+interface ProjetosProps {
   projetos: IProjeto[];
 }
 
-function Projetos({ projetos }: ProjetoProps) {
+function Projetos({ projetos }: ProjetosProps) {
   return (
-    <Container data-aos="fade-up">
+    <Container>
       <SectionTitle title="Ultimos Projetos" />
 
       <section>

@@ -8,7 +8,7 @@ interface Props {
   includes?: boolean;
 }
 
-function NavLink({ title, path, includes = false }: Props) {
+export default function NavLink({ title, path, includes = false }: Props) {
   const router = useRouter();
 
   function verifyIfIsActive() {
@@ -27,4 +27,3 @@ function NavLink({ title, path, includes = false }: Props) {
     </NavLinkContainer>
   );
 }
-export default NavLink;

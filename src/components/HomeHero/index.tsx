@@ -1,19 +1,18 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Container, TextContainer, InfoContainer, CodeItem } from './styles';
-import picture from '../../assets/hero.png';
+import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
+import picture from '../../assets/b2.png';
 
 function HomeHero() {
   return (
-    <Container data-aos="fade-down">
-      <img src={picture} alt="Minha foto" />
+    <Container data-aos="fade-up-left">
+      <img src={picture} alt="Minha foto" data-aos="fade-up-right" />
       <div>
         <TextContainer>
           <h1>Olá</h1>
           <h2>Seja bem vindo(a)</h2>
         </TextContainer>
-        <InfoContainer>
+        <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//Minha Apresentação</span>
             <span className="purple">Infos</span> {'\u007b'}
             <div>
               Nome: <span className="blue"> Diego,</span>
@@ -33,7 +32,7 @@ function HomeHero() {
             </div>
             {'\u007d'}
           </CodeItem>
-        </InfoContainer>
+        </InfosContainer>
       </div>
     </Container>
   );

@@ -6,7 +6,7 @@ function Experiencias() {
   return (
     <Container>
       <SectionTitle title="05 Anos" description="de experiência" />
-      <section>
+      <section data-aos="fade-up-left">
         <ExperienciaItem
           year="2021"
           title="Dev Front-end"

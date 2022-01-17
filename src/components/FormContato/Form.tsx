@@ -1,9 +1,8 @@
-/* eslint-disable react/jsx-no-bind */
 import { useState } from 'react';
 import toast from 'react-hot-toast';
-import { FormContainer, Input, TextArea } from './styles';
 import { sendContactMail } from '../../services/sendMail';
 import theme from '../../styles/theme';
+import { FormContainer, Input, TextArea } from './styles';
 
 export default function Form() {
   const [nome, setNome] = useState('');
@@ -51,14 +50,14 @@ export default function Form() {
   }
 
   return (
-    <FormContainer data-aos="fade-left" onSubmit={handleSubmit}>
+    <FormContainer data-aos="fade-up" onSubmit={handleSubmit}>
       <Input
         placeholder="Nome"
         value={nome}
         onChange={({ target }) => setNome(target.value)}
       />
       <Input
-        placeholder="Email"
+        placeholder="E-mail"
         type="email"
         value={email}
         onChange={({ target }) => setEmail(target.value)}
@@ -69,7 +68,7 @@ export default function Form() {
         onChange={({ target }) => setMensagem(target.value)}
       />
       <button type="submit" disabled={loading}>
-        Enviar
+        ENVIAR
       </button>
     </FormContainer>
   );
