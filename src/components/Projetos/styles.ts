@@ -1,4 +1,3 @@
-import { darken } from 'polished';
 import styled from 'styled-components';
 
 interface ProjetoProps {
@@ -24,14 +23,14 @@ export const Container = styled.section`
   }
 
   > button {
-    background: ${({ theme }) => theme.primary};
+    background: ${({ theme }) => theme.gradiente};
     padding: 0.8rem 3rem;
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
 
     &:hover {
-      background: ${({ theme }) => darken(0.05, theme.primary)};
+      background: ${({ theme }) => theme.gradientr};
     }
 
     a {
@@ -69,7 +68,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     }
 
     > button a {
-      color: ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.secondary};
     }
   }
 

@@ -20,9 +20,14 @@ export default createGlobalStyle`
       background: ${({ theme }) => lighten(0.4, theme.primary)};
     }
   }
-
+// background: ${props => props.theme.background};
   body {
-    background: ${props => props.theme.background};
+    background-image: url('/fundo.png');
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     font: 400 1rem 'Montserrat', sans-serif;
   }
 
