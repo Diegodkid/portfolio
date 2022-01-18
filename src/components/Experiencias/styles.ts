@@ -42,7 +42,9 @@ export const ItemContainer = styled.div`
     transition: 0.5s;
 
     h1 {
-      color: ${({ theme }) => theme.primary};
+      background: linear-gradient(to right, #31ffff 0%, #7125e8 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
       font-size: 2rem;
       margin-bottom: 1.5rem;
     }

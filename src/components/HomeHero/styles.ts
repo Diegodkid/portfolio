@@ -48,13 +48,17 @@ export const TextContainer = styled.section`
 
   h1 {
     font-size: 8rem;
-    color: ${({ theme }) => theme.primary};
+    background: linear-gradient(to right, #31ffff 0%, #7125e8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
   }
 
   h2 {
     font-size: 3rem;
     font-weight: 400;
-    color: ${({ theme }) => theme.secondary};
+    background: linear-gradient(to right, #31ffff 0%, #7125e8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
   }
 
   @media (max-width: 1450px) {

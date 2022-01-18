@@ -8,7 +8,9 @@ export const Container = styled.div`
   gap: 0.5rem;
 
   h1 {
-    color: ${({ theme }) => theme.primary};
+    background: linear-gradient(to right, #31ffff 0%, #7125e8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-size: 4.5rem;
   }
 
