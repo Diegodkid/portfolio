@@ -1,7 +1,6 @@
 # Portfolio
 
-![samagami samiikarana](https://user-images.githubusercontent.com/90665510/151722977-0cbc72e0-5c80-40b5-8bc2-b58edfb4b553.gif)
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/90665510/151723436-55c50ffa-879e-4e2b-83e6-bb3660331c96.gif)
  
 ![Preview]()
 
